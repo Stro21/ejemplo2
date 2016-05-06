@@ -3,7 +3,7 @@ var express  = require("express"),
     http     = require("http"),
     server   = http.createServer(app),
     mongoose = require('mongoose'),
-    tropasModels = require("./node_modules/models/tropasModels");
+    tropasModels = require("./node_modules/models/tropasModelo");
 
 var router = express.Router();
 
